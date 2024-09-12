@@ -18,7 +18,10 @@ require('lazy').setup({
     require 'plugins.bufferline',
     require 'plugins.lualine',
     require 'plugins.treesitter',
-    require 'plugins.telescope'
+    require 'plugins.telescope',
+    require 'plugins.cmp',
+    require 'plugins.mason',
+    require 'plugins.lspconfig'
 })
 
 require 'nvim-treesitter.install'.compilers = { 'zig' }
