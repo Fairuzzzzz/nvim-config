@@ -6,6 +6,6 @@ return {
 			shell = "powershell",
 		})
 
-		vim.keymap.set("n", "<leader>ft", "<cmd>ToggleTerm<CR>", { noremap = true, silent = true })
+		vim.keymap.set("n", "<space>ft", "<cmd>ToggleTerm<CR>", { noremap = true, silent = true })
 	end,
 }

@@ -2,7 +2,7 @@ return {
 	"williamboman/mason.nvim",
 	dependencies = {
 		"williamboman/mason-lspconfig.nvim",
-		"WhoIsSetDaniel/mason-tool-installer.nvim",
+		"WhoIsSethDaniel/mason-tool-installer.nvim",
 	},
 	config = function()
 		local mason = require("mason")
@@ -44,7 +44,6 @@ return {
 				"golines",
 				"gofumpt",
 				"eslint_d",
-				"revive",
 			},
 		})
 	end,

@@ -28,6 +28,7 @@ require("lazy").setup({
 	require("plugins.lazygit"),
 	require("plugins.wakatime"),
 	require("plugins.toggleterminal"),
+	require("plugins.null-ls"),
 })
 
 require("nvim-treesitter.install").compilers = { "zig" }
