@@ -43,9 +43,8 @@ return {
 				"goimports",
 				"golines",
 				"gofumpt",
-				"ast_grep",
 				"eslint_d",
-				"golangci-lint",
+				"revive",
 			},
 		})
 	end,
